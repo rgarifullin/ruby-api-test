@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking lvh.me (be patient)
+
+
+Server Software:        nginx/1.10.3
+Server Hostname:        lvh.me
+Server Port:            80
+
+Document Path:          /api/v1/ping
+Document Length:        4 bytes
+
+Concurrency Level:      100
+Time taken for tests:   3.734 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1940000 bytes
+HTML transferred:       40000 bytes
+Requests per second:    2678.17 [#/sec] (mean)
+Time per request:       37.339 [ms] (mean)
+Time per request:       0.373 [ms] (mean, across all concurrent requests)
+Transfer rate:          507.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.4      0      19
+Processing:     1   36  15.7     35     114
+Waiting:        1   36  15.6     35     114
+Total:          2   37  15.6     35     115
+
+Percentage of the requests served within a certain time (ms)
+  50%     35
+  66%     41
+  75%     45
+  80%     49
+  90%     58
+  95%     66
+  98%     75
+  99%     81
+ 100%    115 (longest request)
